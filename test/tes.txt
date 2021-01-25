@@ -1,0 +1,59 @@
+ CT
+ A+
+---
+ CC
+
+ SEND
+ MORE+
+------
+ MONEY
+
+ NO
+ GUN
+ NO+
+----
+ HUNT
+
+ MEMO
+ FROM+
+------
+ HOME
+
+ EGG
+ EGG+
+-----
+ PAGE
+
+ COCA
+ COLA+
+------
+ OASIS
+
+ NUMBER
+ NUMBER+
+--------
+ PUZZLE
+
+ NUMBER
+ NUMBER+
+--------
+ PUZZLE
+
+ DOUBLE
+ DOUBLE 
+   TOIL+
+--------
+TROUBLE
+
+THREE
+THREE
+  TWO
+  TWO
+  ONE+
+------
+ELEVEN
+
+  TILES
+PUZZLES+
+--------
+PICTURE
