@@ -60,6 +60,11 @@ def searchIdx(x):
 
 
 def cek():
+    # Memeriksa apakah jumlah semua operand sama dengan output
+    # KAMUS
+    # operand : bool
+    # totalsum, sum : int
+
     operand = True
     totalsum = 0
     for x in text:
@@ -81,6 +86,11 @@ def cek():
             return sum == totalsum
 
 def valid():
+    # Memeriksa apakah huruf pertama tidak sama dengan 0
+    # KAMUS
+    # valid : bool
+    # i : int
+
     i = 0
     valid = True
     while i < len(first) and valid:
@@ -93,6 +103,14 @@ def valid():
     
 
 def permutation():
+    # Menghasilkan kemungkinan solusi menggunakan permutasi
+    # Lalu memanggil fungsi-fungsi yang mengevaluasinya
+    # Kemudian mengembalikan berapa banyak tes dan apakah ditemukan solusi
+
+    # KAMUS
+    # count : int
+    # found : bool
+    
     global output
     count = 0
     found = False
