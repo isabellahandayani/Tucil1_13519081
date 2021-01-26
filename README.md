@@ -1,49 +1,38 @@
-# Project Name
-> Here goes your awesome project description!
+# Penyelesaian Cryptarithmetic dengan Algoritma Brute Force
+> Tugas Kecil 1 mata kuliah Strategi Algoritma IF2211 pada semester II Tahun Akademik 2020/2021
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
+* [How To Run](#how-to-run)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+Cryptarithmetic adalah sebuah puzzle penjumlahan di dalam matematika dimana angka diganti dengan huruf. Setiap angka dipresentasikan dengan huruf yang berbeda. Deskripsi permainan ini adalah: diberikan sebuah penjumlahan huruf, carilah angka yang merepresentasikan huruf-huruf tersebut. Untuk menemukan angka representasi tersebut, digunakan algoritma _brute force_ yaitu, sebuah pendekatan pemecahan solusi secara _straightforward_
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![run](https://user-images.githubusercontent.com/63598464/105867436-ae592180-6027-11eb-83c4-8cc538b62c5a.gif)
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+```git clone https://github.com/isabellahandayani/cryptarithmetic-bruteforce```
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+## How To Run
+1. Alternatif - 1
+  ```cd cryptarithmetic-bruteforce/bin```
+  Jalankan cryptarithmetic-bruteforce
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+2. Alternatif-2
+  Jalankan alternatif-2 jika komputer menganggap file _executable_ sebagai virus
+  ``` 
+  cd src
+  python3 cryptarithmetic-bruteforce.py
+  ```
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
+Project is: _finished_
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Isabella Handayani Sumantri - 13519081
