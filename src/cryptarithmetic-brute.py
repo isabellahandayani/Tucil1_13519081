@@ -110,7 +110,7 @@ def permutation():
     # KAMUS
     # count : int
     # found : bool
-    
+
     global output
     count = 0
     found = False
@@ -123,6 +123,11 @@ def permutation():
     return (count, found)
 
 def clean(cnt):
+    # Menghapus isi list output, first, letter
+    # Menghapus semua operand dan hasil pada operasi sebelumnya dari list text
+
+    # KAMUS
+    # i : int
     global output, first, letter, text
     i = 0
     while i < (cnt+1) and len(text) > 0:

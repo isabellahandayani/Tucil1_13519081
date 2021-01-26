@@ -1,5 +1,0 @@
- FORTY
-   TEN
-  TEN+
-------
-SIXTY

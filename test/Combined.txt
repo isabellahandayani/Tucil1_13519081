@@ -47,20 +47,3 @@ DANGER
  JULY+
 ------
  APRIL
-
- FORTY
-   TEN
-  TEN+
-------
-SIXTY
-
-    TILES
- PUZZLES+
----------
-PICTURE
- 
-  CLOCK
-  TICK
-  TOCK+
--------
-PLANET
