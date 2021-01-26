@@ -95,12 +95,14 @@ def valid():
 def permutation():
     global output
     count = 0
+    found = False
     for i in range(10**(len(letter)), (10**(len(letter) - 1)), - 1):
         output = [int(d) for d in str(i)]
         count += 1
-        if len(output) == len(letter) and len(set(output)) == len(output) and cek() and valid():
+        if  len(set(output)) == len(output) and cek() and valid():
+            found = True
             break
-    return count
+    return (count, found)
 
 def clean(cnt):
     global output, first, letter, text
@@ -122,17 +124,19 @@ def main():
             start = time.time()
             cnt = analyse()
             tes = permutation()
-            for i in range(cnt):
-                inNumber = ""
-                for j in range(len(text[i])):
-                    if text[i][j] != "\n" and text[i][j] != " " and text[i][j] != "-" and text[i][j] != "+":
-                        inNumber = inNumber + str(output[searchIdx(text[i][j])])
-                    else:
-                        inNumber = inNumber + text[i][j]
-                print(text[i].rstrip('\n'), inNumber.rstrip('\n'))
-
+            if(tes[1]):
+                for i in range(cnt):
+                    inNumber = ""
+                    for j in range(len(text[i])):
+                        if text[i][j] != "\n" and text[i][j] != " " and text[i][j] != "-" and text[i][j] != "+":
+                            inNumber = inNumber + str(output[searchIdx(text[i][j])])
+                        else:
+                            inNumber = inNumber + text[i][j]
+                    print(text[i].rstrip('\n'), inNumber.rstrip('\n'))
+            else:
+                print("No solution found")
             end = time.time()
-            print("Banyaknya tes :", tes)
+            print("Banyaknya tes :", tes[0])
             print(f"Waktu : {end-start} detik")
             clean(cnt)
         file.close()
