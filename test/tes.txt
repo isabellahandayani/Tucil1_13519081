@@ -1,59 +1,66 @@
- CT
- A+
----
- CC
-
  SEND
- MORE+
-------
- MONEY
-
- NO
- GUN
- NO+
-----
- HUNT
-
- MEMO
- FROM+
-------
- HOME
-
- EGG
- EGG+
+MORE+
 -----
- PAGE
+MONEY
 
- COCA
+  COCA
  COLA+
 ------
  OASIS
 
- NUMBER
- NUMBER+
---------
- PUZZLE
+ HERE
+ SHE+
+-----
+COMES
 
- NUMBER
- NUMBER+
---------
- PUZZLE
+  NO
+ GUN
+ NO+
+----
+HUNT
 
- DOUBLE
- DOUBLE 
+ MEMO
+FROM+
+-----
+HOMER
+
+  DOUBLE
+  DOUBLE
    TOIL+
 --------
-TROUBLE
+ TROUBLE
 
-THREE
-THREE
-  TWO
-  TWO
+ THREE
+ THREE
+   TWO
+   TWO
   ONE+
 ------
 ELEVEN
 
-  TILES
-PUZZLES+
---------
+  CROSS
+ ROADS+
+-------
+DANGER
+
+  JUNE
+ JULY+
+------
+ APRIL
+
+ FORTY
+   TEN
+  TEN+
+------
+SIXTY
+
+    TILES
+ PUZZLES+
+---------
 PICTURE
+ 
+  CLOCK
+  TICK
+  TOCK+
+-------
+PLANET

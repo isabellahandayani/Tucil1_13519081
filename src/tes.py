@@ -1,5 +1,7 @@
 import time
 
+
+# Input 
 file = open("../test/tes.txt", "r")
 input = list(file)
 output = []
@@ -7,22 +9,31 @@ letter = []
 first = []
 
 
-def uniqueletters():
+def analyse():
+    # Menyimpan huruf-huruf unik pada operand dan hasil
+    # Kemudian mengembalikan jumlah operand dan hasil yang terlibat
+
+    # Kamus
+    # operand, result, front : bool
+    # cnt : int
     operand = True
     cnt = 0
     result = False
     for x in input:
         front = True
         for i in range(len(x)):
+
             if x[i] == "-":
                 operand = False
                 break
             
-            if x[i] != "\n" and x[i] != "+" and x[i] != " " and x[i] not in letter:
-                letter.append(x[i])
+            if x[i] != "\n" and x[i] != "+" and x[i] != " ":
+                if x[i] not in letter:
+                    letter.append(x[i])
                 if front:
                     first.append(x[i])
                     front = False
+
             if not operand and i == (len(x)-1):
                 result = True
             
@@ -31,7 +42,13 @@ def uniqueletters():
             break
     return cnt
 
+
 def searchIdx(x):
+    # Mengembalikan index pada array letter yang memiliki huruf x
+    # KAMUS
+    # i : int
+    # found : bool
+
     i = 0 
     found = False
     while i < len(letter) and not found:
@@ -78,7 +95,7 @@ def valid():
 def permutation():
     global output
     count = 0
-    for i in range(10**(len(letter)-1), 10**(len(letter))):
+    for i in range(10**(len(letter)), (10**(len(letter) - 1)), - 1):
         output = [int(d) for d in str(i)]
         count += 1
         if len(output) == len(letter) and len(set(output)) == len(output) and cek() and valid():
@@ -98,14 +115,23 @@ def clean(cnt):
 def main():
     while len(input) > 0:
         start = time.time()
-        cnt = uniqueletters()
+        cnt = analyse()
         tes = permutation()
         end = time.time()
-        print(output)
+        for i in range(cnt):
+            inNumber = ""
+            for j in range(len(input[i])):
+                if input[i][j] != "\n" and input[i][j] != " " and input[i][j] != "-" and input[i][j] != "+":
+                    inNumber = inNumber + str(output[searchIdx(input[i][j])])
+                else:
+                    inNumber = inNumber + input[i][j]
+            print(input[i].rstrip('\n'), inNumber.rstrip('\n'))
+
         print("Banyaknya tes :", tes)
-        print(f"Waktu : {end-start}")
+        print(f"Waktu : {end-start} detik")
         clean(cnt)
 
 
 if __name__ == "__main__":
     main()
+    file.close()
