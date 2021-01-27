@@ -21,7 +21,7 @@ Hasil pengujian
 1. Uji 1
 ![2 operand](https://user-images.githubusercontent.com/63598464/105882469-3f37f900-6038-11eb-9d8e-789777903980.jpg)
 2. Uji 2
-![5 operand](https://user-images.githubusercontent.com/63598464/105882826-b2da0600-6038-11eb-86fb-bcf0934f3a48.jpg)
+![5](https://user-images.githubusercontent.com/63598464/105934356-9b276f80-6082-11eb-8eb5-3d680afaee15.jpg)
 
 ## Setup
 ```
