@@ -17,7 +17,7 @@ Cryptarithmetic adalah sebuah puzzle penjumlahan di dalam matematika dimana angk
 Contoh run
 ![run](https://user-images.githubusercontent.com/63598464/105867436-ae592180-6027-11eb-83c4-8cc538b62c5a.gif)
 
-Hasil pengujian\
+Hasil pengujian
 1. Uji 1
 ![2 operand](https://user-images.githubusercontent.com/63598464/105882469-3f37f900-6038-11eb-9d8e-789777903980.jpg)
 2. Uji 2
@@ -25,20 +25,20 @@ Hasil pengujian\
 
 ## Setup
 ```
-git clone https://github.com/isabellahandayani/cryptarithmetic-bruteforce
+git clone https://github.com/isabellahandayani/Tucil1_13519081
 ```
 
 ## How To Run
 1. Alternatif - 1
   ```
-  cd cryptarithmetic-bruteforce/bin
+  cd Tucil1_13519081/bin
   ```
   Jalankan cryptarithmetic-brute.exe
 
-2. Alternatif-2\
+2. Alternatif-2
   Jalankan alternatif-2 jika komputer menganggap file _executable_ sebagai virus
   ``` 
-  cd src
+  cd Tucil1_13519081/src
   python3 cryptarithmetic-brute.py
   ```
 
