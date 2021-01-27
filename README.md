@@ -7,10 +7,10 @@
 * [Setup](#setup)
 * [How To Run](#how-to-run)
 * [Status](#status)
-* [Contact](#contact)
+* [Author](#Author)
 
 ## General info
-Cryptarithmetic adalah sebuah puzzle penjumlahan di dalam matematika dimana angka diganti dengan huruf. Setiap angka dipresentasikan dengan huruf yang berbeda. Deskripsi permainan ini adalah: diberikan sebuah penjumlahan huruf, carilah angka yang merepresentasikan huruf-huruf tersebut. Untuk menemukan angka representasi tersebut, digunakan algoritma _brute force_ yaitu, sebuah pendekatan pemecahan solusi secara _straightforward_
+Cryptarithmetic adalah sebuah puzzle penjumlahan di dalam matematika dimana angka diganti dengan huruf. Setiap angka dipresentasikan dengan huruf yang berbeda. Deskripsi permainan ini adalah: diberikan sebuah penjumlahan huruf, carilah angka yang merepresentasikan huruf-huruf tersebut. Untuk menemukan angka representasi tersebut, program ini akan menggunakan algoritma _brute force_ yaitu, sebuah pendekatan pemecahan solusi secara _straightforward_.
 
 ## Documentation
 
@@ -42,8 +42,10 @@ git clone https://github.com/isabellahandayani/Tucil1_13519081
   python3 cryptarithmetic-brute.py
   ```
 
+Program akan meminta _input_ berupa nama file yang berisikan data uji dari folder test
+
 ## Status
 Project is: _finished_
 
-## Contact
+## Author
 Isabella Handayani Sumantri - 13519081
